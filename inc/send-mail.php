@@ -17,7 +17,7 @@ function sendResetCode($toEmail, $code)
         $mail->Host = 'smtp-relay.brevo.com';
         $mail->SMTPAuth = true;
 
-        $mail->Username = 'ac1578001@smtp-brevo.com';
+        $mail->Username = '';
         $mail->Password = '';
 
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
@@ -58,7 +58,7 @@ function sendEmergencyDispatchMail($toEmail, $fullname)
         $mail->Host = 'smtp-relay.brevo.com';
         $mail->SMTPAuth = true;
 
-        $mail->Username = 'ac1578001@smtp-brevo.com';
+        $mail->Username = '';
         $mail->Password = '';
 
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
